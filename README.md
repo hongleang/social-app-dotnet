@@ -7,7 +7,10 @@ Using Angular for frontend and dotnet 6 for API
 #### Cient side
 
 Navigate to client folder from main folder
-`cd client`
+
+```
+cd client
+```
 
 Install dependencies and running client server
 **Note: the app uses Angular 14.2.0 and npm so make sure you installed Angular cli and Node js in your machine.
