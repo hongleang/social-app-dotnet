@@ -20,6 +20,8 @@ ng serve
 #### Server side
 Navigate to client folder from main folder
 **Note: the app requires dotnet 6 to run.
-`cd API`
-`dotnet run`
+```
+cd API
+dotnet run
+```
 
