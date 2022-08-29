@@ -1,4 +1,4 @@
-import { HttpClient } from '@angular/common/http';
+import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -17,7 +17,9 @@ export class AppComponent implements OnInit {
   }
 
   getUsers() {
-    this.http.get('http://localhost:5000/api/users').subscribe({
+    const headers = new HttpHeaders({ 'Content-Type': 'application/json; charset=utf-8' });
+
+    this.http.get('http://localhost:5000/api/users', { headers }).subscribe({
       next: (res) => this.users = res,
       error: (e) => console.error(e)
     });

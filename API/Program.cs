@@ -10,7 +10,10 @@ builder.Services.AddDbContext<DataContext>(options =>
 {
     options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection"));
 });
-builder.Services.AddCors();
+builder.Services.AddCors(policy => policy.AddPolicy("cors", build =>
+{
+    build.WithOrigins("http://localhost:4200").AllowAnyHeader().AllowAnyMethod();
+}));
 
 //builder.Services.AddSwaggerGen(c =>
 //{
@@ -29,7 +32,7 @@ if (builder.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-app.UseCors(builder => builder.WithOrigins("http://localhost:4200").AllowAnyHeader().AllowAnyMethod());
+app.UseCors("cors");
 
 app.UseAuthorization();
 
