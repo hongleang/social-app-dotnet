@@ -6206,11 +6206,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\limho\\Documents\\Works\\Personal works\\social-app-dotnet\\API\\API.csproj",
+      "projectUniqueName": "C:\\Users\\limho\\Documents\\Works\\Personal works\\dotnet\\social-app-dotnet\\API\\API.csproj",
       "projectName": "API",
-      "projectPath": "c:\\Users\\limho\\Documents\\Works\\Personal works\\social-app-dotnet\\API\\API.csproj",
+      "projectPath": "C:\\Users\\limho\\Documents\\Works\\Personal works\\dotnet\\social-app-dotnet\\API\\API.csproj",
       "packagesPath": "C:\\Users\\limho\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\limho\\Documents\\Works\\Personal works\\social-app-dotnet\\API\\obj\\",
+      "outputPath": "C:\\Users\\limho\\Documents\\Works\\Personal works\\dotnet\\social-app-dotnet\\API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\limho\\AppData\\Roaming\\NuGet\\NuGet.Config"
