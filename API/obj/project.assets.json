@@ -6206,19 +6206,21 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\limho\\Documents\\Works\\Personal works\\dotnet\\social-app-dotnet\\API\\API.csproj",
+      "projectUniqueName": "W:\\Learning\\Angular\\dotnet-projects\\social-app-dotnet\\API\\API.csproj",
       "projectName": "API",
-      "projectPath": "C:\\Users\\limho\\Documents\\Works\\Personal works\\dotnet\\social-app-dotnet\\API\\API.csproj",
+      "projectPath": "W:\\Learning\\Angular\\dotnet-projects\\social-app-dotnet\\API\\API.csproj",
       "packagesPath": "C:\\Users\\limho\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\limho\\Documents\\Works\\Personal works\\dotnet\\social-app-dotnet\\API\\obj\\",
+      "outputPath": "W:\\Learning\\Angular\\dotnet-projects\\social-app-dotnet\\API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\limho\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\limho\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
