@@ -222,3 +222,11 @@ W:\Learning\Angular\dotnet-projects\social-app-dotnet\API\obj\Debug\net6.0\refin
 W:\Learning\Angular\dotnet-projects\social-app-dotnet\API\obj\Debug\net6.0\API.pdb
 W:\Learning\Angular\dotnet-projects\social-app-dotnet\API\obj\Debug\net6.0\API.genruntimeconfig.cache
 W:\Learning\Angular\dotnet-projects\social-app-dotnet\API\obj\Debug\net6.0\ref\API.dll
+W:\Learning\Angular\dotnet-projects\social-app-dotnet\API\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+W:\Learning\Angular\dotnet-projects\social-app-dotnet\API\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+W:\Learning\Angular\dotnet-projects\social-app-dotnet\API\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+W:\Learning\Angular\dotnet-projects\social-app-dotnet\API\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+W:\Learning\Angular\dotnet-projects\social-app-dotnet\API\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+W:\Learning\Angular\dotnet-projects\social-app-dotnet\API\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+W:\Learning\Angular\dotnet-projects\social-app-dotnet\API\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+W:\Learning\Angular\dotnet-projects\social-app-dotnet\API\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll

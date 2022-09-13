@@ -19,7 +19,7 @@ export class AppComponent implements OnInit {
   getUsers() {
     const headers = new HttpHeaders({ 'Content-Type': 'application/json; charset=utf-8' });
 
-    this.http.get('https://localhost:5500/api/users', { headers }).subscribe({
+    this.http.get('https://localhost:5001/api/users', { headers }).subscribe({
       next: (res) => this.users = res,
       error: (e) => console.error(e)
     });
